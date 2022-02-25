@@ -1,0 +1,19 @@
+{
+  "itemName" : "pat_poopwater",
+  "shortdescription" : "Poop Water",
+  "description" : "patman's famous poop water",
+  "inventoryIcon" : "poopwater.png",
+  "rarity" : "Essential",
+  "tooltipKind" : "base",
+  "category" : "drink",
+  "price" : 1200,
+  "maxStack" : 1,
+  "effects" : [[
+		{
+			"effect" : "weakpoison",
+			"duration" : 30
+		},
+		"pat_poopwatervomit"
+	]],
+  "emitters" : ["drinking"]
+}

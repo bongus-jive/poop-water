@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "poop", "count" : 2 },
+    { "item" : "bottledwater", "count" : 1 }
+  ],
+  "output" : { "item" : "pat_poopwater", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ],
+  "collectables" : { "cooking" : "pat_poopwater" }
+}

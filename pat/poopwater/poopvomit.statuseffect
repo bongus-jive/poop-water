@@ -1,0 +1,14 @@
+{
+  "name" : "pat_poopwatervomit",
+  "effectConfig" : {
+    "particleEmitters" : ["dripright", "spurtright", "chunkright"]
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "/stats/effects/npcreactions/particlereaction.lua",
+		"poopvomit.lua"
+  ],
+  
+  "animationConfig": "/stats/effects/npcreactions/vomit.animation"
+}
